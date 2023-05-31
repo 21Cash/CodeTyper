@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main(){int n, i, j;
+printf("Enter n: ");
+scanf("%d", &n);
+int a[n], b[n];
+printf("Enter n elements: ");
+for(i = 0;
+ i < n;
+ i++){scanf("%d", &a[i]);
+b[i] = -1;
+}printf("Input: ");
+for(i = 0;
+ i < n;
+ i++)printf("%d ", a[i]);
+printf("\nOutput: ");
+for(i = 0;
+ i < n;
+ i++){for(j = i + 1;
+ j < n;
+ j++){if(a[i] < a[j]){b[i] = a[j];
+break;
+}}if(b[i] == -1){for(j = 0;
+ j < i;
+ j++){if(a[i] < a[j]){b[i] = a[j];
+break;
+}}}printf("%d ", b[i]);
+}printf("\n");
+}
