@@ -5,8 +5,11 @@ Extracts code from div element, and types it.
 Steps To Use:
 
 1.Open Inspect Element and copy element of "ace_layer ace_text-layer" Div
+
 2.Paste it in input.txt
+
 3.Run extracter.exe
+
 4.Now, Use any online resource for good Formatting of code in input.txt
 
 I Recommend https://codebeautify.org/c-formatter-beautifier# with 4 space indentation setting
